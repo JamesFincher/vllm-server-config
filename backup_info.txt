@@ -1,0 +1,29 @@
+Backup Information
+==================
+Date: Thu Jul 31 15:59:23 PDT 2025
+Source: root@86.38.238.64:/root
+Destination: /Users/jamesfincher/backup/server_backup_20250731_155918
+Total Size: 240K
+Total Files:       33
+
+Top-level contents:
+total 368
+drwx------@ 38 jamesfincher  staff   1216 Jul 31 15:59 .
+drwxr-xr-x@  3 jamesfincher  staff     96 Jul 31 15:59 ..
+-rw-------@  1 jamesfincher  staff  15569 Jul 31 15:25 .bash_history
+-rw-r--r--@  1 jamesfincher  staff   3144 May  5 22:32 .bashrc
+drwxr-xr-x@  3 jamesfincher  staff     96 Jul 31 13:06 .config
+drwx------@  3 jamesfincher  staff     96 Jul 31 13:06 .nv
+-rw-r--r--@  1 jamesfincher  staff    161 Jul  9  2019 .profile
+drwx------@  3 jamesfincher  staff     96 Jul 31 11:55 .ssh
+drwxr-xr-x@  3 jamesfincher  staff     96 Jul 31 13:06 .triton
+-rw-------@  1 jamesfincher  staff  24078 Jul 31 14:07 .viminfo
+-rw-r--r--@  1 jamesfincher  staff      0 Jul 31 15:59 backup_info.txt
+---x--x--x   1 jamesfincher  staff  10523 Jul 31 14:07 fp.sh
+-rwxr-xr-x@  1 jamesfincher  staff   3104 Jul 31 13:37 p.sh
+-rwxr-xr-x@  1 jamesfincher  staff    479 Jul 31 14:07 quick_setup.sh
+-rw-r--r--@  1 jamesfincher  staff   2652 Jul 31 14:07 requirements_full.txt
+-rwxr-xr-x@  1 jamesfincher  staff   1501 Jul 31 11:58 s.sh
+-rw-r--r--@  1 jamesfincher  staff  22032 Jul 31 14:07 server_recreation_blueprint_20250731_210707.md
+drwx------@  3 jamesfincher  staff     96 Jul 31 11:55 snap
+-rwxr-xr-x@  1 jamesfincher  staff   7630 Jul 31 13:29 so.sh

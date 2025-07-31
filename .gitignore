@@ -1,0 +1,26 @@
+# Sensitive files
+*.key
+*.pem
+.env
+.bash_history
+
+# Model files (too large for git)
+/models/
+*.bin
+*.safetensors
+
+# Logs
+*.log
+/logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*~
+
+# Runtime files
+*.pid
+*.sock
