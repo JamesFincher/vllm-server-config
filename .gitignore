@@ -1,26 +1,108 @@
-# Sensitive files
-*.key
-*.pem
-.env
-.bash_history
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Model files (too large for git)
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# vLLM specific
 /models/
 *.bin
 *.safetensors
-
-# Logs
 *.log
-/logs/
+logs/
+/var/log/vllm/
+
+# SSH keys and sensitive files
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+.ssh/
+.bash_history
+
+# Configuration files with secrets
+*secret*
+*private*
+*.env.local
+*.env.production
 
 # System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trash-*
+ehthumbs.db
 Thumbs.db
 
+# Chat history and temporary files
+chathistory*.md
+*.tmp
+*.temp
+temp/
+tmp/
+
+# CRUSH configuration (may contain API keys)
+.config/crush/
+
+# Screen sessions
+screen-*
+
+# PID files
+*.pid
+*.sock
+
 # Backup files
+*.backup
 *.bak
 *~
 
-# Runtime files
-*.pid
-*.sock
+# CUDA cache
+.nv/
+.triton/
+
+# Development artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test results
+test-results/
+coverage-reports/
+
+# Local environment files
+my-environment.sh
+local-config.*

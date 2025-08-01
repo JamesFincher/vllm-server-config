@@ -1,0 +1,31 @@
+{
+  "$schema": "https://charm.land/crush.json",
+  "providers": {
+    "vllm-local": {
+      "type": "openai",
+      "base_url": "http://localhost:8000/v1",
+      "api_key": "qwen3-secret-key",
+      "models": [
+        {
+          "id": "qwen3",
+          "name": "Qwen3-480B Local (200k context)",
+          "context_window": 200000,
+          "default_max_tokens": 8192,
+          "cost_per_1m_in": 0,
+          "cost_per_1m_out": 0
+        }
+      ]
+    }
+  },
+  "default_provider": "vllm-local",
+  "default_model": "qwen3",
+  "options": {
+    "debug": false
+  },
+  "performance_notes": {
+    "response_time": "0.87 seconds average",
+    "token_generation_speed": "75 tokens/second",
+    "tested_context_window": "200k tokens confirmed working",
+    "max_stable_context": "700k tokens with FP8 cache"
+  }
+}
